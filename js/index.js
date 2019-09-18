@@ -45,7 +45,7 @@ $instructions.addEventListener("click", () => {
     title: "Un pokemon",
     html: `<div style="text-align: left;"><strong>1.-</strong> El universo esta lleno de pokemones</div>
                  <div style="text-align: left;"><strong>2.-</strong> Cada Pokemon tiene una identidad.</div>
-                 <div style="text-align: left;"><strong>3.-</strong> La identidad de un Pokemon corresponde a un numero.</div>
+                 <div style="text-align: left;"><strong>3.-</strong> La identidad de un Pokemon corresponde a un número.</div>
                  <div style="text-align: left;"><strong>4.-</strong> Ingresando cualquier número llamaras un pokemon y este te dira su nombre y saltara de la felicidad de <strong>Conocerte</strong>.</div>
                  <br>
                  <div style="text-align: right;"><strong>Dev.</strong> Jorge Velasquez 😉</div>
