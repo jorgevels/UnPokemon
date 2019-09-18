@@ -11,16 +11,26 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/index.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./ico/poke.ico">
   <title>Pokemon</title>
+
+  <script src="index.js" defer></script>
+  <link rel="manifest" href="manifest.webmanifest">
+
 </head>
+
 
 <body>
   <h1>Un Pokemon</h1>
   <div class="container my-5 text-center">
-    <input type="number" id='idPokemon' class="input" name="number" required placeholder="ingresa un numero">
+    <h1 id="instrucciones" class="instrucciones">
+      <i class="fas fa-info-circle"></i>
+    </h1>
+    <input type="number" id='idPokemon' class="input" name="number" placeholder="Ingresa un numero" required>
 
     <button class="btn btn-danger w-100" onclick="traerPokemon()">Obtener Pokemon</button>
     <div class="mt-5" id="contenido"></div>
@@ -28,14 +38,13 @@
 
 
   </div>
-
 </body>
 
 <footer class="footer">
-
   <a href="#">Hecho con <i class="fa fa-heart"></i>
     © 2019</a>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 <script src="./js/index.js">
 </script>
 

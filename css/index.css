@@ -15,6 +15,10 @@ h1 {
   margin-top: 20px;
 }
 
+.fa-info-circle {
+  color: yellow;
+}
+
 .input {
   background-color: rgba(255, 255, 255, 0.1);
   border: 2px solid white;

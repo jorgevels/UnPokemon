@@ -1,5 +1,6 @@
 var contenido = document.querySelector("#contenido");
 const $message = document.querySelector("#message");
+const $instructions = document.getElementById("instrucciones");
 
 function renderPokemon(pokemon) {
   contenido.innerHTML = `<h3><b>${pokemon.name}</b></h3>  
@@ -26,7 +27,28 @@ function traerPokemon() {
 
     .catch(() => {
       contenido.innerHTML = ``;
-      renderMessage("No se encontro un pokemon :(");
+      /* renderMessage("No se encontro un pokemon :("); */
+      Swal.fire({
+        title: `Lo siento!<br>🙁
+         aun no existe un pokemon con ese numero. <br>`,
+        text: "¿Deseas Buscar otro Pokemon?",
+
+        confirmButtonColor: "#3085d6"
+      });
     });
   console.log(id);
 }
+
+$instructions.addEventListener("click", () => {
+  Swal.fire({
+    type: "info",
+    title: "Un pokenmon",
+    html: `<div style="text-align: left;"><strong>1.-</strong> El universo esta lleno de pokemones</div>
+                 <div style="text-align: left;"><strong>2.-</strong> Cada Pokemon tiene una identidad.</div>
+                 <div style="text-align: left;"><strong>3.-</strong> La identidad de un Pokemon corresponde a un numero.</div>
+                 <div style="text-align: left;"><strong>4.-</strong> Ingresando cualquier numero llamaras un pokemon y este te dira su nombre y saltara de la felicidad de <strong>Conocerte</strong>.</div>
+                 <br>
+                 <div style="text-align: right;"><strong>Dev.</strong> Jorge Velasquez 😉</div>
+                 `
+  });
+});
