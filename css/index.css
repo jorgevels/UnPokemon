@@ -8,6 +8,12 @@ body {
   /* background: linear-gradient(to left, #4286f4, #373b44); */
   font-family: "Muli", sans-serif;
 }
+h1 {
+  color: black;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  margin-top: 20px;
+}
 
 .input {
   background-color: rgba(255, 255, 255, 0.1);
@@ -16,7 +22,7 @@ body {
   color: white;
   font-family: "Muli", sans-serif;
   font-size: 16px;
-  height: 10px;
+  height: 50px;
   margin-bottom: 20px;
   outline: none;
   padding: 0px 20px;
@@ -28,9 +34,103 @@ body {
   color: white;
   text-align: center;
 }
+.btn-danger {
+  background-color: #2f2f2f;
+  color: white;
+  margin-top: 20px;
+}
+#contenido h3 {
+  color: yellow;
+}
+
+/* img {
+  margin-top: 4rem; */
+/*  animation: 300ms latido infinite; */
+/*  position: absolute; */
+/* 
+  animation: rebota 1s alternate infinite ease-out;
+}
+ */
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 0 0,
+    hsl(60, 100%, 50%) 25%,
+    hsl(60, 100%, 30%) 70%,
+    hsl(60, 100%, 1%)
+  );
+  animation: rebota 1s alternate infinite ease-in;
+}
+
+/* .shadow {
+  width: 100px;
+  height: 1px;
+  background: #000;
+  box-shadow: 0 0 5px 5px #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 288px;
+  opacity: 0.2;
+  transform: scale(0.5);
+  animation: sombra 1s alternate infinite ease-in;
+} */
+
+/* @keyframes sombra {
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+} */
+
+@keyframes rebota {
+  90% {
+    height: 200px;
+  }
+
+  100% {
+    transform: translateY(150px);
+    height: 200px;
+  }
+}
+
+/* @keyframes latido {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  200% {
+    transform: scale(1.1);
+  }
+} */
+#contenido h6 {
+  /*  background-color: yellow; */
+  background: radial-gradient(
+    circle at 0 0,
+    hsl(60, 100%, 50%) 25%,
+    hsl(60, 100%, 30%) 70%,
+    hsl(60, 100%, 1%)
+  );
+
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+#message {
+  color: white;
+  margin-top: 6rem;
+  font-size: 1.5em;
+}
 
 .footer {
-  background-color: blueviolet;
+  background-color: #263238;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +138,7 @@ body {
   position: fixed;
   left: 0px;
   bottom: 0px;
-  height: 30px;
+  height: 40px;
   width: 100%;
 }
 
@@ -46,8 +146,13 @@ body {
   color: white;
   cursor: pointer;
   font-size: 14px;
-  padding-left: 30px;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-heart {
+  color: red;
 }
 
 .footer a:hover {
@@ -55,13 +160,20 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  h1 {
+    color: black;
+    text-align: center;
+    font-family: "Press Start 2P", cursive;
+    margin-top: 20px;
+    font-size: 30px;
+  }
   .footer {
     position: fixed;
     left: 0px;
     bottom: 0px;
     height: 30px;
     width: 100%;
-    background-color: blueviolet;
+
     align-items: center;
     flex-direction: column;
   }
