@@ -1,0 +1,16 @@
+{
+  "background_color": "purple",
+  "description": "Ingresando un numero conoceras un pokemon  ",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "ico/poke.png",
+
+      "sizes": "285x374",
+      "type": "image/png"
+    }
+  ],
+  "name": "Un universo de Pokemones",
+  "short_name": "UnPokemon",
+  "start_url": "/UnPokemon/index.html"
+}
