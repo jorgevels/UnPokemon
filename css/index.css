@@ -1,13 +1,8 @@
 body {
-  /* background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.9) 0%,
-    rgba(0, 0, 0, 0) 100%
-  ); */
   background-color: #e84855;
-  /* background: linear-gradient(to left, #4286f4, #373b44); */
   font-family: "Muli", sans-serif;
 }
+
 h1 {
   color: black;
   text-align: center;
@@ -56,7 +51,7 @@ h1 {
 }
  */
 
-img {
+/* img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -68,6 +63,61 @@ img {
     hsl(60, 100%, 1%)
   );
   animation: rebota 1s alternate infinite ease-in;
+} */
+
+img {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(
+    circle at 0 0,
+    hsl(60, 100%, 50%) 25%,
+    hsl(60, 100%, 30%) 70%,
+    hsl(60, 100%, 1%)
+  );
+
+  animation-name: cuadrado, escalera;
+  animation-duration: 2s, 0.9s;
+  animation-iteration-count: infinite, 15;
+  animation-direction: alternate;
+  animation-timing-function: linear ease-in-out;
+  position: relative;
+}
+
+@keyframes cuadrado {
+  0% {
+  }
+  20% {
+    right: 0;
+  }
+  40% {
+    left: 0;
+  }
+  /* 60% {
+  }
+  80% {
+  } */
+  90% {
+    left: calc(20% - 20px);
+    /*  right: calc(50% - 90px); */
+  }
+  100% {
+  }
+  100% {
+    /* right: calc(50% + 90px); */
+    left: calc(0% - 90px);
+  }
+  120% {
+    right: calc(0% - 90px);
+  }
+}
+
+@keyframes escalera {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(200px);
+  }
 }
 
 /* @keyframes rebota {
@@ -90,16 +140,6 @@ img {
   }
 }
  */
-@keyframes rebota {
-  /* =0% */
-  from {
-    transform: translateY(0);
-  }
-  /*  =100% */
-  to {
-    transform: translateY(100px) scale(1, 5);
-  }
-}
 
 #contenido h6 {
   /*  background-color: yellow; */
