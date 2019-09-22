@@ -5,8 +5,7 @@
   "icons": [
     {
       "src": "ico/poke.png",
-
-      "sizes": "285x374",
+      "sizes": "285x285",
       "type": "image/png"
     }
   ],

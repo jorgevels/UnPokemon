@@ -4,7 +4,7 @@ self.addEventListener("install", function(e) {
       return cache.addAll([
         "/UnPokemon/",
         "/UnPokemon/index.html",
-        "/UnPokemon/index.js",
+        "/UnPokemon/indexx.js",
         "/UnPokemon/css/index.css",
         "/UnPokemon/js/index.js"
       ]);

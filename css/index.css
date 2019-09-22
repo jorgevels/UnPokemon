@@ -60,6 +60,7 @@ img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+
   background: radial-gradient(
     circle at 0 0,
     hsl(60, 100%, 50%) 25%,
@@ -69,27 +70,7 @@ img {
   animation: rebota 1s alternate infinite ease-in;
 }
 
-/* .shadow {
-  width: 100px;
-  height: 1px;
-  background: #000;
-  box-shadow: 0 0 5px 5px #000;
-  border-radius: 50%;
-  position: absolute;
-  top: 288px;
-  opacity: 0.2;
-  transform: scale(0.5);
-  animation: sombra 1s alternate infinite ease-in;
-} */
-
-/* @keyframes sombra {
-  100% {
-    transform: scale(1);
-    opacity: 0.5;
-  }
-} */
-
-@keyframes rebota {
+/* @keyframes rebota {
   90% {
     height: 200px;
   }
@@ -98,19 +79,28 @@ img {
     transform: translateY(150px);
     height: 200px;
   }
+} */
+
+/* @keyframes rebota {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(500px);
+  }
+}
+ */
+@keyframes rebota {
+  /* =0% */
+  from {
+    transform: translateY(0);
+  }
+  /*  =100% */
+  to {
+    transform: translateY(100px) scale(1, 5);
+  }
 }
 
-/* @keyframes latido {
-  0% {
-    transform: scale(1.1);
-  }
-  50% {
-    transform: scale(1);
-  }
-  200% {
-    transform: scale(1.1);
-  }
-} */
 #contenido h6 {
   /*  background-color: yellow; */
   background: radial-gradient(
