@@ -14,7 +14,7 @@ h2 {
   text-align: center;
 }
 .add-button {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: yellow;
   border: 2px solid white;
   border-radius: 25px;
   color: white;
@@ -24,8 +24,10 @@ h2 {
   margin-bottom: 20px;
   outline: none;
   padding: 0px 20px;
-  width: 70%;
+  width: 35%;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .fa-info-circle {
