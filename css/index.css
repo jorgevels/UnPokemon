@@ -14,17 +14,17 @@ h2 {
   text-align: center;
 }
 .add-button {
-  background-color: yellow;
+  background-color: orangered;
   border: 2px solid white;
   border-radius: 25px;
-  color: white;
+  color: black;
   font-family: "Muli", sans-serif;
   font-size: 16px;
   height: 50px;
   margin-bottom: 20px;
   outline: none;
   padding: 0px 20px;
-  width: 35%;
+  width: 15%;
   text-align: center;
   justify-content: center;
   align-items: center;
