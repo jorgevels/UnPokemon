@@ -14,7 +14,7 @@ h2 {
   text-align: center;
 }
 .add-button {
-  background-color: orangered;
+  background-color: #e9ff70;
   border: 2px solid white;
   border-radius: 25px;
   color: black;
@@ -24,12 +24,11 @@ h2 {
   margin-bottom: 20px;
   outline: none;
   padding: 0px 20px;
-  width: 15%;
-  text-align: center;
+  width: 50%;
+  /* text-align: center;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
-
 .fa-info-circle {
   color: yellow;
 }
