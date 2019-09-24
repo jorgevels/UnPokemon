@@ -10,9 +10,7 @@ Mira **Deployment** https://jorgevels.github.io/UnPokemon/.
 
 ### Pre-requisitos 📋
 
-```
 Lo puedes instalar en tu ordenador o cualquier dispositivo movil, solo necesitas un navegador una coneccion a internet y un navegador web
-```
 
 ### Instalación 🔧
 
@@ -26,7 +24,7 @@ Si das click en aceptar la app de intalara en tu telefono y esta se ubicara en l
 Si das click en el boton de cancelar la instalacion se cancelara y el boton de color amarillo seguira apareciendo en la pantalla principal
 ```
 
-_Al tener la App instalada en tu dispositivo, en el espacion donde dice ingerea un numero; con tan solo ingresar un numero cualquiera y dar click en el boton de obtener un pokemon este traer un pokemon con su respetivo nombre y in ID que lo identifica en el mundo de los pokemones_
+_Al tener la App instalada en tu dispositivo, en el espacin donde dice ingeresa un numero; con tan solo ingresar un numero cualquiera y dar click en el boton de obtener un pokemon, este traer un pokemon con su respetivo nombre y un ID que lo identifica en el mundo de los pokemones_
 
 ## Construido con 🛠️
 
