@@ -7,7 +7,7 @@ if ("serviceWorker" in navigator) {
 // Código para manejar la solicitud de instalación en el escritorio
 
 let deferredPrompt;
-const addBtn = document.querySelector(".btn-warning");
+const addBtn = document.querySelector(".btn-warningk");
 addBtn.style.display = "none";
 
 window.addEventListener("beforeinstallprompt", e => {
@@ -26,9 +26,9 @@ window.addEventListener("beforeinstallprompt", e => {
     // Espere a que el usuario responda a la pregunta
     deferredPrompt.userChoice.then(choiceResult => {
       if (choiceResult.outcome === "accepted") {
-        console.log("User accepted the A2HS prompt");
+        console.log("El usuario acepto la instalacion");
       } else {
-        console.log("User dismissed the A2HS prompt");
+        console.log("El usuario cancelo la instalacion ");
       }
       deferredPrompt = null;
     });
