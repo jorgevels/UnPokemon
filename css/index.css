@@ -19,8 +19,8 @@ h2 {
 .text-center {
   text-align: center !important;
 }
-.btn-success {
-  background-color: red;
+.btn-primary {
+  /* background-color: red; */
   font-family: "Muli", sans-serif;
   font-weight: 700;
   color: white;

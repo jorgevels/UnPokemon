@@ -7,7 +7,7 @@ if ("serviceWorker" in navigator) {
 // Código para manejar la solicitud de instalación en el escritorio
 
 let deferredPrompt;
-const addBtn = document.querySelector(".btn-success");
+const addBtn = document.querySelector(".btn-primary");
 addBtn.style.display = "none";
 
 window.addEventListener("beforeinstallprompt", e => {
