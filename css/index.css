@@ -19,7 +19,8 @@ h2 {
 .text-center {
   text-align: center !important;
 } */
-.btn-warning {
+.btn-danger {
+  background-color: yellowgreen;
   font-family: "Muli", sans-serif;
   font-weight: 700;
   color: white;
