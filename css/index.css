@@ -17,12 +17,12 @@ h1 {
 h2 {
   text-align: center;
 }
-/* .container-btn {
-  text-align: center !important;
+.container-btn-add {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-.text-center {
-  text-align: center !important;
-} */
+
 .btn-warning {
   font-family: "Muli", sans-serif;
   font-weight: 700;
