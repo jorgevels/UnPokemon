@@ -19,12 +19,11 @@ h2 {
 .text-center {
   text-align: center !important;
 }
-.btn-info {
-  /* background-color: green !important; */
+.btn-warning {
   font-family: "Muli", sans-serif;
   font-weight: 700;
   color: white;
-  margin-top: 0px;
+  margin-top: 5px;
 }
 .fa-info-circle {
   color: yellow;
