@@ -19,9 +19,8 @@ h2 {
 .text-center {
   text-align: center !important;
 }
-.add-button {
+.btn-danger_add {
   background-color: #e9ff70;
-  border: 2px solid white;
   border-radius: 25px;
   color: black;
   font-family: "Muli", sans-serif;
@@ -31,9 +30,6 @@ h2 {
   outline: none;
   padding: 0px 20px;
   width: 20%;
-  /* text-align: center;
-  justify-content: center;
-  align-items: center; */
 }
 .fa-info-circle {
   color: yellow;
