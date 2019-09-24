@@ -10,10 +10,8 @@ Mira **Deployment** https://jorgevels.github.io/UnPokemon/.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
 ```
-Lo puedes instalar en tu ordenador cualquier dispositovo mobil, solo necesitas un navegador una coneccion a internet y un navegador web
+Lo puedes instalar en tu ordenador o cualquier dispositivo movil, solo necesitas un navegador una coneccion a internet y un navegador web
 ```
 
 ### Instalación 🔧
@@ -28,25 +26,13 @@ Si das click en aceptar la app de intalara en tu telefono y esta se ubicara en l
 Si das click en el boton de cancelar la instalacion se cancelara y el boton de color amarillo seguira apareciendo en la pantalla principal
 ```
 
-_Y repite_
-
-```
-hasta finalizar
-```
-
 _Al tener la App instalada en tu dispositivo, en el espacion donde dice ingerea un numero; con tan solo ingresar un numero cualquiera y dar click en el boton de obtener un pokemon este traer un pokemon con su respetivo nombre y in ID que lo identifica en el mundo de los pokemones_
 
 ## Construido con 🛠️
 
 _HTML5, JavaScript, css, Sass, github_
 
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-- [Maven](https://maven.apache.org/) - Manejador de dependencias
-- [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
 ## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
 ## Autores ✒️
 
@@ -56,7 +42,7 @@ También puedes mirar la lista de todos los [contribuyentes](https://github.com/
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (MTI) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
 
