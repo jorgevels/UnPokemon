@@ -13,6 +13,11 @@ h1 {
 h2 {
   text-align: center;
 }
+.container-btn {
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
 .add-button {
   background-color: #e9ff70;
   border: 2px solid white;
