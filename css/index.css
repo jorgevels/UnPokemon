@@ -20,7 +20,7 @@ h2 {
   text-align: center !important;
 }
 .btn-success {
-  /* background-color: #e9ff70; */
+  background-color: red;
   font-family: "Muli", sans-serif;
   font-weight: 700;
   color: white;
