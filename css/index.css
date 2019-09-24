@@ -14,9 +14,10 @@ h2 {
   text-align: center;
 }
 .container-btn {
-  justify-content: center;
-  text-align: center;
-  align-content: center;
+  text-align: center !important;
+}
+.text-center {
+  text-align: center !important;
 }
 .add-button {
   background-color: #e9ff70;
@@ -25,11 +26,11 @@ h2 {
   color: black;
   font-family: "Muli", sans-serif;
   font-size: 16px;
-  height: 50px;
+  height: 30px;
   margin-bottom: 20px;
   outline: none;
   padding: 0px 20px;
-  width: 50%;
+  width: 20%;
   /* text-align: center;
   justify-content: center;
   align-items: center; */
