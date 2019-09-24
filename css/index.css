@@ -13,12 +13,12 @@ h1 {
 h2 {
   text-align: center;
 }
-.container-btn {
+/* .container-btn {
   text-align: center !important;
 }
 .text-center {
   text-align: center !important;
-}
+} */
 .btn-warning {
   font-family: "Muli", sans-serif;
   font-weight: 700;
