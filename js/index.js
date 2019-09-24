@@ -2,16 +2,6 @@ var contenido = document.querySelector("#contenido");
 const $message = document.querySelector("#message");
 const $instructions = document.getElementById("instrucciones");
 
-const $hideButton = document.getElementById("hide-modal");
-const $modal = document.getElementById("modal");
-const $overlay = document.getElementById("overlay");
-
-$hideButton.addEventListener("click", event => {
-  /* console.log(event); */
-  $modal.style.animation = "modalOut .8s forwards";
-  $overlay.classList.remove("active");
-});
-
 function renderPokemon(pokemon) {
   contenido.innerHTML = `<h3><b>${pokemon.name}</b></h3>  
   <img src="${pokemon.sprites.front_default}" width="180px" class="img-fluid rounded-circle">
