@@ -90,8 +90,8 @@ h2 {
 } */
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   background: radial-gradient(
     circle at 0 0,
     hsl(60, 100%, 50%) 25%,
@@ -161,13 +161,13 @@ img {
  */
 @keyframes rebota {
   90% {
-    height: 200px;
+    height: 100%;
   }
 
   100% {
     /*  transform: translateY(150px); */
     transform: translateY(100%);
-    height: 200px;
+    height: 100%;
   }
 }
 
@@ -248,114 +248,136 @@ img {
 
   @keyframes rebota {
     90% {
-      height: 200px;
+      height: 100%;
     }
 
     100% {
       /*  transform: translateY(150px); */
       transform: translateY(50%);
-      height: 200px;
+      height: 100%;
     }
   }
 
   @media only screen and (max-height: 823px) {
+    img {
+      width: 90%;
+      height: 90%;
+    }
     @keyframes rebota {
       90% {
-        height: 200px;
+        height: 100%;
       }
 
       100% {
         /*  transform: translateY(150px); */
-        transform: translateY(120%);
-        height: 200px;
+        transform: translateY(38%);
+        height: 100%;
       }
     }
   }
   @media only screen and (max-height: 812px) {
+    img {
+      width: 100%;
+      height: 100%;
+    }
     @keyframes rebota {
       90% {
-        height: 200px;
+        height: 100%;
       }
 
       100% {
         /*  transform: translateY(150px); */
-        transform: translateY(120%);
-        height: 200px;
+        transform: translateY(35%);
+        height: 100%;
       }
     }
   }
   @media only screen and (max-height: 736px) {
+    img {
+      width: 80%;
+      height: 80%;
+    }
     @keyframes rebota {
       90% {
-        height: 200px;
+        height: 100%;
       }
 
       100% {
         /*  transform: translateY(150px); */
-        transform: translateY(90%);
-        height: 200px;
+        transform: translateY(28%);
+        height: 100%;
       }
     }
   }
   @media only screen and (max-height: 731px) {
+    img {
+      width: 80%;
+      height: 80%;
+    }
     @keyframes rebota {
       90% {
-        height: 200px;
+        height: 100%;
       }
 
       100% {
         /*  transform: translateY(150px); */
-        transform: translateY(85%);
-        height: 200px;
+        transform: translateY(25%);
+        height: 100%;
       }
     }
   }
   @media only screen and (max-height: 667px) {
+    img {
+      width: 80%;
+      height: 80%;
+    }
+
     @keyframes rebota {
       90% {
-        height: 200px;
+        height: 100%;
       }
 
       100% {
         /*  transform: translateY(150px); */
-        transform: translateY(60%);
-        height: 200px;
+        transform: translateY(15%);
+        height: 100%;
       }
     }
   }
   @media only screen and (max-height: 640px) {
     img {
-      width: 150px;
-      height: 150px;
+      /*  width: 150px; */
+      width: 70%;
+      height: 70%;
     }
 
     @keyframes rebota {
       90% {
-        height: 150px;
+        height: 100%;
       }
 
       100% {
         /*  transform: translateY(150px); */
-        transform: translateY(90%);
-        height: 150px;
+        transform: translateY(28%);
+        height: 100%;
       }
     }
   }
   @media only screen and (max-height: 568px) {
     img {
-      width: 150px;
-      height: 150px;
+      width: 70%;
+      height: 70%;
     }
 
     @keyframes rebota {
       90% {
-        height: 150px;
+        height: 100%;
       }
 
       100% {
         /*  transform: translateY(150px); */
-        transform: translateY(45%);
-        height: 150px;
+        transform: translateY(10%);
+        height: 100%;
       }
     }
   }
