@@ -1,5 +1,6 @@
 const VERSION = "v1";
 
+// SW
 // Se llama cuando el navegador instale el sw
 self.addEventListener("install", event => {
   // El precache recibe una lista de recursos que querramoes que mantenfa en cache
