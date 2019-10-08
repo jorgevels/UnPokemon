@@ -31,7 +31,7 @@ h2 {
 }
 
 .fa-info-circle {
-  color: green;
+  color: blue;
 }
 
 .input {
@@ -65,29 +65,6 @@ h2 {
   color: yellow;
   margin-top: 20px;
 }
-
-/* img {
-  margin-top: 4rem; */
-/*  animation: 300ms latido infinite; */
-/*  position: absolute; */
-/* 
-  animation: rebota 1s alternate infinite ease-out;
-}
- */
-
-/* img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-
-  background: radial-gradient(
-    circle at 0 0,
-    hsl(60, 100%, 50%) 25%,
-    hsl(60, 100%, 30%) 70%,
-    hsl(60, 100%, 1%)
-  );
-  animation: rebota 1s alternate infinite ease-in;
-} */
 
 img {
   position: absolute;
