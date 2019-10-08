@@ -2,7 +2,7 @@ self.addEventListener("install", function(e) {
   e.waitUntil(
     caches.open("video-store").then(function(cache) {
       return cache.addAll([
-        "/", // Es muy importante ya que las paginas tambien las solicitamos como / debemos capturar esta request
+        // Es muy importante ya que las paginas tambien las solicitamos como / debemos capturar esta request
         "/UnPokemon/",
         "/UnPokemon/index.html",
         "/UnPokemon/indexx.js",
