@@ -90,8 +90,11 @@ h2 {
 } */
 
 img {
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  /*  width: 100%; */
+  object-fit: cover;
+  max-width: 12% !important;
+  /* height: 100%; */
   background: radial-gradient(
     circle at 0 0,
     hsl(60, 100%, 50%) 25%,
@@ -109,56 +112,6 @@ img {
   /* animation: 5s pokemon infinite linear; */
 }
 
-/* @keyframes cuadrado {
-  0% {
-  }
-  20% {
-    right: 0;
-  }
-  40% {
-    left: 0;
-  }
-
-  90% {
-    left: calc(20% - 20px);
-  }
-  100% {
-  }
-  100% {
-    left: calc(0% - 90px);
-  }
-  120% {
-    right: calc(0% - 90px);
-  }
-}
-
-@keyframes escalera {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(200px);
-  }
-}
- */
-
-/* @keyframes rebota {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(300px);
-  }
-} */
-/* @keyframes pokemon {
-  0% {
-    transform: rotateY(0);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
-}
- */
 @keyframes rebota {
   90% {
     height: 100%;
@@ -227,7 +180,12 @@ img {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
+  img {
+    object-fit: cover;
+    max-width: 150% !important;
+  }
+
   h1 {
     color: black;
     text-align: center;
@@ -252,16 +210,80 @@ img {
     }
 
     100% {
-      /*  transform: translateY(150px); */
-      transform: translateY(50%);
+      transform: translateY(100%);
       height: 100%;
     }
   }
 
-  @media only screen and (max-height: 823px) {
+  @media screen and (max-height: 736px) {
+    @keyframes rebota {
+      90% {
+        height: 100%;
+      }
+
+      100% {
+        transform: translateY(80%);
+        height: 100%;
+      }
+    }
+  }
+
+  @media screen and (min-height: 812px) {
+    @keyframes rebota {
+      90% {
+        height: 100%;
+      }
+
+      100% {
+        transform: translateY(140%);
+        height: 100%;
+      }
+    }
+  }
+
+  @media screen and (min-height: 823px) {
+    @keyframes rebota {
+      90% {
+        height: 100%;
+      }
+
+      100% {
+        transform: translateY(120%);
+        height: 100%;
+      }
+    }
+  }
+
+  @media screen and (max-height: 667px) {
+    @keyframes rebota {
+      90% {
+        height: 100%;
+      }
+
+      100% {
+        transform: translateY(65%);
+        height: 100%;
+      }
+    }
+  }
+  @media screen and (max-height: 666px) {
+    @keyframes rebota {
+      90% {
+        height: 100%;
+      }
+
+      100% {
+        transform: translateY(40%);
+        height: 100%;
+      }
+    }
+  }
+}
+
+/* @media only screen and (max-height: 823px) {
     img {
-      width: 90%;
-      height: 90%;
+      object-fit: cover;
+      max-width: 80% !important;
     }
     @keyframes rebota {
       90% {
@@ -269,24 +291,18 @@ img {
       }
 
       100% {
-        /*  transform: translateY(150px); */
         transform: translateY(38%);
         height: 100%;
       }
     }
   }
   @media only screen and (max-height: 812px) {
-    img {
-      width: 100%;
-      height: 100%;
-    }
     @keyframes rebota {
       90% {
         height: 100%;
       }
 
       100% {
-        /*  transform: translateY(150px); */
         transform: translateY(35%);
         height: 100%;
       }
@@ -303,7 +319,6 @@ img {
       }
 
       100% {
-        /*  transform: translateY(150px); */
         transform: translateY(28%);
         height: 100%;
       }
@@ -320,7 +335,6 @@ img {
       }
 
       100% {
-        /*  transform: translateY(150px); */
         transform: translateY(25%);
         height: 100%;
       }
@@ -338,7 +352,6 @@ img {
       }
 
       100% {
-        /*  transform: translateY(150px); */
         transform: translateY(15%);
         height: 100%;
       }
@@ -346,7 +359,6 @@ img {
   }
   @media only screen and (max-height: 640px) {
     img {
-      /*  width: 150px; */
       width: 70%;
       height: 70%;
     }
@@ -357,16 +369,15 @@ img {
       }
 
       100% {
-        /*  transform: translateY(150px); */
         transform: translateY(28%);
         height: 100%;
       }
     }
   }
-  @media only screen and (max-height: 568px) {
+  @media screen and (max-height: 568px) {
     img {
-      width: 70%;
-      height: 70%;
+      width: 100%;
+      height: auto;
     }
 
     @keyframes rebota {
@@ -375,10 +386,8 @@ img {
       }
 
       100% {
-        /*  transform: translateY(150px); */
         transform: translateY(10%);
         height: 100%;
       }
     }
-  }
-}
+  } */

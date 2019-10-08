@@ -4,9 +4,11 @@ const $instructions = document.getElementById("instrucciones");
 
 function renderPokemon(pokemon) {
   contenido.innerHTML = `<h3><b>${pokemon.name}</b></h3>  
-  <img src="${pokemon.sprites.front_default}" width="180px" class="img-fluid rounded-circle">
+  <img src="${pokemon.sprites.front_default}" width="55%" class="img-fluid rounded-circle">
   <h6><b>${pokemon.id}</b></h6> `;
 }
+
+/* class="img-fluid rounded-circle" */
 
 function renderMessage(message) {
   $message.textContent = message;
@@ -15,11 +17,14 @@ function renderMessage(message) {
 function traerPokemon() {
   var id = document.getElementById("idPokemon").value;
   document.getElementById.id;
+  var png = document.getElementById("idPokemon").value;
+
   document.getElementById("idPokemon").value = "";
 
   renderMessage();
 
   fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`)
+    /* fetch(`https://assets.pokemon.com/assets/cms2/img/pokedex/full/${id}`) */
     .then(response => response.json())
     .then(data => {
       renderPokemon(data);
