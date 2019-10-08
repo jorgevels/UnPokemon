@@ -1,6 +1,6 @@
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("/UnPokemon/sw.js").then(function() {
-    console.log("Service Worker Registered");
+    console.log("Service Worker Registrado");
   });
 }
 
