@@ -225,7 +225,7 @@ img {
       }
 
       100% {
-        transform: translateY(100%);
+        transform: translateY(90%);
         height: 100%;
       }
     }
