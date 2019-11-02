@@ -218,7 +218,7 @@ img {
     }
   }
 
-  @media screen and (min-height: 823px) {
+  @media screen and (max-height: 823px) {
     @keyframes rebota {
       90% {
         height: 100%;
