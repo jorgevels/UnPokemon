@@ -38,7 +38,7 @@ _Github_
 
 ## Autores ✒️
 
-- **Jorge Velasquez** - \_ \_ - [jorgevels](https://github.com/villanuevand)
+- **Jorge Velasquez** - \_ \_ - [jorgevels](https://github.com/jorgevels)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.
 

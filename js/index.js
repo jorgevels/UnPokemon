@@ -2,29 +2,34 @@ var contenido = document.querySelector("#contenido");
 const $message = document.querySelector("#message");
 const $instructions = document.getElementById("instrucciones");
 
+const spinner = document.getElementById("spinner");
+
+function showSpinner() {
+  spinner.className = "show";
+  setTimeout(() => {
+    spinner.className = spinner.className.replace("show", "");
+  }, 1000);
+}
+
 function renderPokemon(pokemon) {
   contenido.innerHTML = `<h3><b>${pokemon.name}</b></h3>  
   <img src="${pokemon.sprites.front_default}" width="55%" class="img-fluid rounded-circle">
   <h6><b>${pokemon.id}</b></h6> `;
 }
 
-/* class="img-fluid rounded-circle" */
-
 function renderMessage(message) {
   $message.textContent = message;
 }
 
 function traerPokemon() {
+  showSpinner();
   var id = document.getElementById("idPokemon").value;
   document.getElementById.id;
-  var png = document.getElementById("idPokemon").value;
 
   document.getElementById("idPokemon").value = "";
 
   renderMessage();
-
   fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`)
-    /* fetch(`https://assets.pokemon.com/assets/cms2/img/pokedex/full/${id}`) */
     .then(response => response.json())
     .then(data => {
       renderPokemon(data);

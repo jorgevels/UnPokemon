@@ -15,7 +15,10 @@
     integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/index.css">
-  <link rel="shortcut icon" type="image/x-icon" href="./ico/poke.ico">
+
+  <link rel="stylesheet" href="Loading/index.css">
+  <link rel="stylesheet" href="Loading/loadin.css">
+  <link rel=" shortcut icon" type="image/x-icon" href="./ico/poke.ico">
   <title>Pokemon</title>
 
   <script src="indexx.js" defer></script>
@@ -27,27 +30,53 @@
   <div class="container-btn-add">
     <button type="button" class="btn btn-warning btn-sm">Instalar Un Pokemon</button>
   </div>
+
   <h1>Un Pokemon</h1>
+  <div class="lds-roller">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
   <h2 id="instrucciones" class="instrucciones">
     <i class="fas fa-info-circle"></i>
   </h2>
+
   <div class="container  text-center ">
-    <input type="number" id='idPokemon' class="input" name="number" required placeholder="Ingresa un número">
+    <input type="number" id='idPokemon' class="input" name="number" placeholder="Ingresa un número" required>
     <button class="btn btn-danger w-100" onclick="traerPokemon()">Obtener Pokemon</button>
+
+    <div id="spinner">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
     <div class="mt" id="contenido"></div>
+
     <p id="message"></p>
-  </div>
-</body>
+    <//div> </body> <footer class="footer">
+    <a href="#">Hecho con <i class="fa fa-heart"></i>
+      © 2019</a>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-
-<footer class="footer">
-  <a href="#">Hecho con <i class="fa fa-heart"></i>
-    © 2019</a>
-</footer>
-
-
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-<script src="./js/index.js">
-</script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="./js/index.js">
+    </script>
+    <script src="./js/loadin.js"></script>
 
 </html>
