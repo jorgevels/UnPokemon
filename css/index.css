@@ -183,8 +183,8 @@ h2 {
 
 @media screen and (max-width: 640px) {
   .pokemon-img {
-    width: 150px;
-    height: 150px;
+    width: 210px;
+    height: 210px;
   }
 
   h1 {
